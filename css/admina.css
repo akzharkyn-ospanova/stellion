@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #003E3F;
+}
+
+/* Меню */
+.menu {
+    background-color: #003E3F;
+    padding: 15px 0;
+}
+
+.menu .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #F7AB57;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+}
+
+/* Контейнер */
+.wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 62, 63, 0.1);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .menu .wrapper {
+        text-align: center;
+    }
+
+    .menu ul {
+        padding: 0;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
+
+
+/* Стили для дашборда */
+.col-4 {
+    width: 20%;
+    background: #F7AB57;
+    color: #003E3F;
+    margin: 1%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Стили для страницы входа */
+.login {
+    width: 30%;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .tbl-30 {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .login {
+        width: 80%;
+    }
+}
+/*add-admin*/
+.main-content {
+    padding: 20px;
+}
+
+.tbl-30 {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tbl-30 td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #F7AB57;
+    color: #003E3F;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e69545;
+}
+
+/* Адаптивность */
+@media (max-width: 480px) {
+    .tbl-30 {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 12px;
+    }
+}
+
+
+
+
+
+/* Стили для таблицы админов */
+.tbl-full {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tbl-full th, .tbl-full td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tbl-full th {
+    background-color: #003E3F;
+    color: white;
+}
+
+.tbl-full tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tbl-full tr:hover {
+    background-color: #F7AB57;
+    color: #003E3F;
+}
+
+/* Стили для кнопок действий */
+.btn-danger {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #003E3F;
+    color: #F7AB57;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
